@@ -8,7 +8,6 @@ const MobileApp = () => {
   return (
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        
         {/* Left: App Image */}
         <Image
           src="/images/app.png"
@@ -24,14 +23,15 @@ const MobileApp = () => {
         {/* Right: Content */}
         <div>
           <h1 className="text-2xl sm:text-4xl font-bold leading-8 sm:leading-12">
-            Connecting our users with iOS & Android apps. Download from iTunes & Play Store
+            Connecting our users with iOS & Android apps. Download from iTunes &
+            Play Store
           </h1>
 
           <p className="mt-6 text-sm sm:text-base text-gray-800 leading-6 sm:leading-8 dark:text-gray-400">
-            Pick one of our stock themes, or create your custom theme with the most
-            advanced theme editor on any online survey building tool. We're driven
-            beyond just finishing the projects. We want to find solutions using our
-            website & apps.
+            Pick one of our stock themes, or create your custom theme with the
+            most advanced theme editor on any online survey building tool. We
+            are driven beyond just finishing the projects. We want to find
+            solutions using our website & apps.
           </p>
 
           {/* Download Buttons */}
